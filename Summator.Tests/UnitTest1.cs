@@ -45,12 +45,5 @@ namespace Summator.Tests
             double result = Summator.Average(new int[] { 5, 5 });
             Assert.That(result == 5);
         }
-
-        [Test]
-        public void Test_Average_TwoNumbersWithDecimal()
-        {
-            double result = Summator.Average(new int[] { 5, 6 });
-            Assert.AreEqual(5.5, result);
-        }
     }
 }
